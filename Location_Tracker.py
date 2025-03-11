@@ -4,7 +4,7 @@ from phonenumbers import carrier
 from opencage.geocoder import OpenCageGeocode
 from phonenumbers import  geocoder
 
-number = input ('Enter Mobile Number with Country code (+88) : ')
+number = input ('+49 17636397193 : ')
 Key = 'd250b366a89649fda9b115b2cf2d1643'
 karim_Number = phonenumbers.parse(number)
 yourLocation = geocoder.description_for_number(karim_Number, "en")
